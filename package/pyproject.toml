@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lgx-mod"
+version = "1.0.0"
+description = "LGX extension — LangGraph conversational agents on the Renglo platform"
+authors = [
+    {name = "NOMA Team"}
+]
+requires-python = ">=3.12"
+dependencies = [
+    "langgraph>=0.2.0",
+    "openai>=1.0.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0.0",
+    "pytest-cov>=4.0.0",
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["lgx*"]
