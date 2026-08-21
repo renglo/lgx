@@ -1,6 +1,6 @@
 # LGX extension
 
-LangGraph-based conversational agents for Renglo. The implementation lives under `package/` as the installable Python module **`lgx-mod`**.
+LangGraph-based conversational agents for Renglo. The implementation lives under `package/` as the installable Python distribution **`renglo-lgx`** (import package `lgx`).
 
 Handlers follow the same scheduler contract as other extensions (e.g. Claw `ParallelAgent`): a `run(payload)` entry point, standard payload fields (`portfolio`, `org`, `entity_type`, `entity_id`, `thread`, `data`), and a response shaped as `{success, action, input, output}`.
 
@@ -57,7 +57,7 @@ extensions/lgx/
 │   └── pages/
 │       └── lgx_chat.tsx
 └── package/
-    ├── pyproject.toml        # lgx-mod
+    ├── pyproject.toml        # renglo-lgx
     ├── setup.py
     ├── requirements.txt
     └── lgx/

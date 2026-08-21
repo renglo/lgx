@@ -6,7 +6,7 @@ LangGraph conversational agents for the NOMA / Renglo platform
 from setuptools import setup, find_packages
 
 setup(
-    name="lgx-mod",
+    name="renglo-lgx",
     version="1.0.0",
     description="LGX extension — LangGraph conversational agents on the Renglo platform",
     author="NOMA Team",
