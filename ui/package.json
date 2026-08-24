@@ -1,7 +1,6 @@
 {
   "name": "@renglo/lgx",
   "version": "1.0.0",
-  "private": true,
   "type": "module",
   "main": "./lgx.tsx",
   "exports": {
