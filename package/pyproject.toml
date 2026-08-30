@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "renglo-lgx"
-version = "1.0.1rc1"
+version = "1.0.1"
 description = "LGX extension — LangGraph conversational agents on the Renglo platform"
 authors = [
     {name = "NOMA Team"}
