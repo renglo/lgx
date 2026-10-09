@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "renglo-lgx"
-version = "1.0.2"
+version = "1.0.3rc1"
 description = "LGX extension — LangGraph conversational agents on the Renglo platform"
 authors = [
     {name = "NOMA Team"}
@@ -27,3 +27,6 @@ include = ["lgx*"]
 
 [tool.setuptools.package-data]
 "*" = ["blueprints/*.json"]
+
+[tool.renglo]
+platform = "0.1.6"
